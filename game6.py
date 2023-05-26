@@ -8,7 +8,7 @@ background = pygame.image.load("japan.jpg")
 
 charX = screen_width // 2
 charY = screen_height // 2
-move_speed = 10
+move_speed = 5
 
 character = pygame.image.load('arm1.png')
 character_resized = pygame.transform.scale(character, (int(character.get_width() * 0.1), int(character.get_height() * 0.1)))
